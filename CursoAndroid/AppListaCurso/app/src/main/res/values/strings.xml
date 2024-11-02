@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppListaCurso</string>
+    <string name="android_txt_titulo1">Lista VIP</string>
+    <string name="android_txt_titulo2">Curso Android</string>
+    <string name="android_txt_nome">Digite seu nome</string>
+    <string name="android_txt_sobrenome">Digite seu sobrenome</string>
+    <string name="android_txt_curso">Digite o curso desejado</string>
+    <string name="android_txt_email">Digite seu e-mail</string>
+    <string name="android_txt_celular">Digite seu celular</string>
+    <string name="botao_limpar">Limpar</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_finalizar">Finalizar</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppListaCurso" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@drawable/wppdark</item>
+        <!-- Cor primária e secundária do tema escuro -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorSecondary">#03DAC6</item>
+
+        <!-- Cores de fundo e texto para o modo escuro -->
+        <item name="android:textColor">#FFFFFF</item>
+
+
+    </style>
+</resources>

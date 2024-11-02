@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newwpp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/androidTxtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#120F0F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextClock
+        android:id="@+id/androidTxtHora24PM_AM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format24Hour="hh:mm:ss a"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/androidTxtAppName"
+        app:layout_constraintVertical_bias="0.054" />
+
+
+    <TextClock
+        android:id="@+id/androidTxtHora12PM_AM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="hh:mm:ss a"
+        android:textColor="#202020"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/androidTxtHora24PM_AM"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/androidTxtHoraAtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hora atual"
+        android:textColor="#202020"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/androidTxtHora12PM_AM"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/androidBotao"
+        android:layout_width="229dp"
+        android:layout_height="63dp"
+        android:text="Atualizar hora"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CalendarView
+        android:id="@+id/androidCalendario"
+        android:layout_width="324dp"
+        android:layout_height="303dp"
+        android:background="#776E51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/androidBotao"
+        app:layout_constraintVertical_bias="0.483" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
