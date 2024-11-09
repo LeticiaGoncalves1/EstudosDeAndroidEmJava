@@ -45,27 +45,6 @@ public class MainActivity extends AppCompatActivity {
         pessoa2.setEmail("vanessa@email.com");
 
 
-        dadosPessoa = "Primeiro nome: ";
-        dadosPessoa += pessoa.getNome();
-        dadosPessoa += " Sobrenome: ";
-        dadosPessoa += pessoa.getSobrenome();
-        dadosPessoa += " Curso desejado: ";
-        dadosPessoa += pessoa.getCursoDesejado();
-        dadosPessoa += " Telefone: ";
-        dadosPessoa += pessoa.getTelefone();
-        dadosPessoa += " Email: ";
-        dadosPessoa += pessoa.getEmail();
-
-        dadosPessoa2 = "Primeiro nome: ";
-        dadosPessoa2 += pessoa2.getNome();
-        dadosPessoa2 += " Sobrenome: ";
-        dadosPessoa2 += pessoa2.getSobrenome();
-        dadosPessoa2 += " Curso desejado: ";
-        dadosPessoa2 += pessoa2.getCursoDesejado();
-        dadosPessoa2 += " Telefone: ";
-        dadosPessoa2 += pessoa2.getTelefone();
-        dadosPessoa2 += " Email: ";
-        dadosPessoa2 += pessoa2.getEmail();
 
 
 
