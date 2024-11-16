@@ -1,6 +1,7 @@
 package devandroid.leticia.applistacurso.view;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Atribuindo dados ao objeto pessoa do tipo Pessoa
-        pessoa.setNome("Letícia");
-        pessoa.setSobrenome("Gonçalves");
+        pessoa.setNome("Leticia");
+        pessoa.setSobrenome("Goncalves");
         pessoa.setCursoDesejado("Java Android");
         pessoa.setTelefone("11981424242");
         pessoa.setEmail("leticia@email.com");
@@ -45,10 +46,8 @@ public class MainActivity extends AppCompatActivity {
         pessoa2.setEmail("vanessa@email.com");
 
 
-
-
-
-
+        Log.i("POOAndroid","Objeto pessoa: " + pessoa.toString());
+        Log.i("POOAndroid","Objeto pessoa2: " + pessoa2.toString());
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

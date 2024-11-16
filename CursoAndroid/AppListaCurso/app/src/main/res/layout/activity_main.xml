@@ -19,8 +19,7 @@
             android:layout_height="match_parent">
 
 
-            <TextView
-                android:id="@+id/android_titulo1"
+            <TextView android:id="@+id/android_titulo1"
                 android:layout_width="134dp"
                 android:layout_height="44dp"
                 android:layout_marginTop="40dp"
@@ -35,8 +34,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/android_titulo2"
+            <TextView android:id="@+id/android_titulo2"
                 android:layout_width="135dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
@@ -50,8 +48,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_titulo1" />
 
-            <EditText
-                android:id="@+id/android_nome"
+            <EditText android:id="@+id/android_nome"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -63,8 +60,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_titulo2" />
 
-            <EditText
-                android:id="@+id/android_sobrenome"
+            <EditText android:id="@+id/android_sobrenome"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -76,8 +72,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_nome" />
 
-            <EditText
-                android:id="@+id/android_curso"
+            <EditText android:id="@+id/android_curso"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -89,8 +84,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_sobrenome" />
 
-            <EditText
-                android:id="@+id/android_email"
+            <EditText android:id="@+id/android_email"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -103,8 +97,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_celular" />
 
-            <EditText
-                android:id="@+id/android_celular"
+            <EditText android:id="@+id/android_celular"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -118,8 +111,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_curso" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/android_botao_limpar"
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/android_botao_limpar"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -132,8 +124,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_email" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/android_botao_salvar"
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/android_botao_salvar"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -144,8 +135,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/android_email" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/android_botao_finalizar"
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/android_botao_finalizar"
                 android:layout_width="375dp"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
